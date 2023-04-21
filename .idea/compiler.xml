@@ -9,5 +9,8 @@
         <module name="Auto_API_Test_CJYL" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoTestYHWJ" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

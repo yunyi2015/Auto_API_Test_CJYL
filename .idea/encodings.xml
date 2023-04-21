@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/../AutoTest YHWJ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../AutoTest YHWJ/src/main/java/base/bs_Configuration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_Configuration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_DBConnect.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_GetParameter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_JxlUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_PoiUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/classes/base/bs_Sleep.java" charset="UTF-8" />
+  </component>
 </project>
