@@ -15,7 +15,7 @@ public class bs_Configuration {
     private static String configpath = "./conifg.ini";
     private static Properties properties = new Properties();
     FileInputStream fis = null; //read
-    OutputStream fos ;
+    OutputStream fos;
 
     public bs_Configuration() {
         try {
@@ -37,7 +37,7 @@ public class bs_Configuration {
     public void setProperty(String key, String value)  //write
     {
         try {
-            fos = new FileOutputStream(configpath,true);// 加载读取文件流
+            fos = new FileOutputStream(configpath, true);// 加载读取文件流
             properties.setProperty(key, value);
             properties.store(fos, null);
             fos.close();
@@ -47,6 +47,7 @@ public class bs_Configuration {
             e.printStackTrace();
         }
     }
+}
 
 //public static void main(String[] args) {
 //Configuration ini = new Configuration();
