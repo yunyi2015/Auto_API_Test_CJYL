@@ -28,6 +28,8 @@ public class bs_Configuration {
         }
     }
 
+    //
+
     public String getProperty(String key)  //read
     {
         Object object = properties.get(key);
